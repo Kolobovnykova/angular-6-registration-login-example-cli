@@ -1,0 +1,41 @@
+[debug] [2018-08-02T20:19:30.734Z] ----------------------------------------------------------------------
+[debug] [2018-08-02T20:19:30.737Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Helen\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-02T20:19:30.737Z] CLI Version:   4.0.2
+[debug] [2018-08-02T20:19:30.737Z] Platform:      win32
+[debug] [2018-08-02T20:19:30.737Z] Node Version:  v8.11.3
+[debug] [2018-08-02T20:19:30.738Z] Time:          Thu Aug 02 2018 23:19:30 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:30.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-02T20:19:30.758Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-02T20:19:30.759Z] > authorizing via signed-in user
+[debug] [2018-08-02T20:19:30.762Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-02T20:19:30.763Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/FB7rNghuEHTJXa6nHcacsxP1T5kCE2evpbdGy6kEqYQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Aug 02 2018 23:19:30 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:31.385Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-02T20:19:31.396Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/testfirebaseau  
+  
+ Thu Aug 02 2018 23:19:31 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:32.098Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-02T20:19:32.101Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/testfirebaseau/tokens  
+  
+ Thu Aug 02 2018 23:19:32 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:32.723Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-02T20:19:32.727Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testfirebaseau  
+  
+ Thu Aug 02 2018 23:19:32 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:33.753Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\BinaryStudio\angular-6-registration-login-example-cli'...
+[info] 
+[debug] [2018-08-02T20:19:33.759Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/180540303793/clients/_:getWebAppConfig  
+  
+ Thu Aug 02 2018 23:19:33 GMT+0300 (Финляндия (лето))
+[debug] [2018-08-02T20:19:34.441Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
